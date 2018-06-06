@@ -8,6 +8,9 @@ public class Test extends Application{
     public void start(Stage primaryStage) throws Exception {
         Media media = new Media(getClass().getResource("music/PokemonRedBlue.mp3").toString());
         MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setAutoPlay(true);
+        mediaPlayer.getOnRepeat().run();
+        mediaPlayer.setCycleCount(5);
+        mediaPlayer.play();
+//        mediaPlayer.stop();
     }
 }
