@@ -22,8 +22,8 @@ public class Main extends Application {
 //        primaryStage.setScene(scene);
 //        primaryStage.show();
 //        //Rise Servers
-        primaryStage.setTitle("My Application!");
-        Parent root = FXMLLoader.load(getClass().getResource("Start/Intro.fxml"));
+        primaryStage.setTitle("POKEMAZE V.2.2.1.3");
+        Parent root = FXMLLoader.load(getClass().getResource("Start/StartView.fxml"));
         Scene scene = new Scene(root, 800, 700);
 //        scene.getStylesheets().add(getClass().getResource("StartStyle.css").toExternalForm());
         primaryStage.setScene(scene);

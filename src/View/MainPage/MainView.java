@@ -5,7 +5,7 @@ import javafx.fxml.Initializable;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class MainViewModel implements Initializable{
+public class MainView implements Initializable{
 
 
     @Override
